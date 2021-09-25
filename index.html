@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Library</title>
+</head>
+<body>
+    <main>
+        <nav class="menu">
+            <h1>Library</h1>
+            <div class="buttons">
+                <button class="add-new">New Book</button>
+                <button class="delete-all">Delete all</button>
+            </div>
+        </nav>
+
+        <div class="form">
+            <form action="">
+                <h3>Add a new</h3>
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title">
+                <br>
+
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author">
+                <br>
+
+                <label for="pages">Pages:</label>
+                <input type="number" name="pages" id="pages">
+                <br>
+
+                <input type="checkbox" name="read" id="read">
+                <label for="read">I read this book</label>
+                <br>
+
+                <button class="add">Add</button>
+                <button class="close">Close</button>
+            </form>
+        </div>
+
+        <section class="all-books">
+
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
